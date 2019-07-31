@@ -1,0 +1,38 @@
+{
+  "name": "kudzu",
+  "version": "0.0.1",
+  "description": "Fast evaluation on ESTree-compatible ASTs",
+  "keywords": [
+    "esprima",
+    "estree",
+    "cherow",
+    "static",
+    "eval",
+    "evaluation",
+    "vm",
+    "virtual",
+    "machine"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchipka/esprima-eval.git"
+  },
+  "author": {
+    "name": "rchipka",
+    "email": "mail@robbie.codes"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "main": "index",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/rchipka/esprima-eval/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "esprima": "^4.0.0",
+    "mocha": "^4.0.1"
+  }
+}
