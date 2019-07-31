@@ -12,7 +12,7 @@ Fast evaluation on ESTree-compatible ASTs
 
 # Install
 
-`npm install esprima-eval`
+`npm install kudzu`
 
 # Usage
 
