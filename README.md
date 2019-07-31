@@ -17,11 +17,11 @@ Fast evaluation on ESTree-compatible ASTs
 # Usage
 
 ```javascript
-var esEval   = require('esprima-eval'),
+var kudzu    = require('kudzu'),
     esprima  = require('esprima');
 
 var ast   = esprima.parseScript(' ... '),
-    scope = new esEval.Scope(globals);
+    scope = new kudzu.Scope(globals);
 
 scope.on('get', function () {
   // supports custom scope data handlers
